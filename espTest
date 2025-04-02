@@ -1,0 +1,8 @@
+void setup() {
+  Serial.begin(115200); // Initialisation du port série à 115200 bauds
+}
+
+void loop() {
+  Serial.println("Bravo la mif"); // Affiche le message sur le moniteur série
+  delay(1000);                   // Attend 1 seconde
+}
